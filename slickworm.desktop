@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=slickworm
+Comment=Shoot-em-up game
+Comment[pl]=Strzelanka 
+Exec=slickworm
+Terminal=0
+Type=Application
+# vi: encoding=utf-8
