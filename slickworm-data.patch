@@ -1,0 +1,12 @@
+diff -urN aaa/slickworm-0.2.0/configure.in slickworm-0.2.0/configure.in
+--- aaa/slickworm-0.2.0/configure.in	2003-07-28 01:16:44.000000000 +0200
++++ slickworm-0.2.0/configure.in	2003-08-12 23:33:11.000000000 +0200
+@@ -63,7 +63,7 @@
+ AC_CHECK_HEADERS([ode/ode.h])
+ 
+ CXXFLAGS="$CXXFLAGS -Wall -W -Wno-unused"
+-CXXFLAGS="$CXXFLAGS -DDATADIR=\\\"$datadir/@PACKAGE@/data\\\""
++CXXFLAGS="$CXXFLAGS -DDATADIR=\\\"$datadir/slickworm/data\\\""
+ CXXFLAGS="$CXXFLAGS $SDL_CFLAGS"
+ LIBS="$LIBS $SDL_LIBS"
+ 
