@@ -12,7 +12,7 @@ Patch0:		%{name}-data.patch
 URL:		http://slickworm.sourceforge.net/
 BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
-Buildrequires:	SDL-devel >= 1.2.0
+BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
