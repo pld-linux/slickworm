@@ -1,5 +1,5 @@
 Summary:	Slickworm is a shoot-em-up game
-Summary(pl.UTF-8):   Slickworm jest strzelanką
+Summary(pl.UTF-8):	Slickworm jest strzelanką
 Name:		slickworm
 Version:	0.2.1
 Release:	1
