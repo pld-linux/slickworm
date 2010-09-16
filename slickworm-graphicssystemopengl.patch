@@ -1,0 +1,56 @@
+--- slickworm-0.4.1/src/graphicssystemopengl.h.old	2010-09-16 15:07:42.000000000 +0200
++++ slickworm-0.4.1/src/graphicssystemopengl.h	2010-09-16 15:08:50.000000000 +0200
+@@ -219,7 +219,7 @@
+     class vertex_buffer
+     {
+     public:
+-        vertex_buffer::vertex_buffer() { buffer = NULL; }
++        vertex_buffer() { buffer = NULL; }
+ 
+         float* buffer;
+         int number_of_vertices;
+@@ -232,7 +232,7 @@
+     class index_buffer
+     {
+     public:
+-        index_buffer::index_buffer() { buffer = NULL; }
++        index_buffer() { buffer = NULL; }
+ 
+         unsigned short* buffer;
+         int number_of_indices;
+@@ -243,7 +243,7 @@
+     class texture
+     {
+     public:
+-        texture::texture() { this->used = false; }
++        texture() { this->used = false; }
+         bool used;
+         GLuint texture_id;
+         Surface copy;
+@@ -255,7 +255,7 @@
+     class texture_ref_count
+     {
+     public:
+-        texture_ref_count::texture_ref_count() { this->reference_count = 1; }
++        texture_ref_count() { this->reference_count = 1; }
+         int reference_count;
+         std::string filename;
+         TEXTURE_HANDLE handle;
+@@ -266,7 +266,7 @@
+     class cubemap_texture
+     {
+     public:
+-        cubemap_texture::cubemap_texture() { this->used = false; }
++        cubemap_texture() { this->used = false; }
+         bool used;
+         GLuint texture_id;
+         Surface copy_px;
+@@ -282,7 +282,7 @@
+     class texture3D
+     {
+     public:
+-        texture3D::texture3D() { this->used = false; }
++        texture3D() { this->used = false; }
+         bool used;
+         GLuint texture_id;
+         unsigned char* buffer_copy;

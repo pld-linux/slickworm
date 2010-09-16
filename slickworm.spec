@@ -1,14 +1,16 @@
 Summary:	Slickworm is a shoot-em-up game
 Summary(pl.UTF-8):	Slickworm jest strzelanką
 Name:		slickworm
-Version:	0.2.1
-Release:	1
+Version:	0.4.1
+Release:	0.1
 License:	BSD
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	cf3647b00f1828a2ac4b53dd71409678
+# Source0-md5:	c1a24992207fb4f1a1086bcff787ef6f
 Source1:	%{name}.desktop
 Patch0:		%{name}-data.patch
+Patch1:		%{name}-include.patch
+Patch2:		%{name}-graphicssystemopengl.patch
 URL:		http://slickworm.sourceforge.net/
 BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
@@ -37,6 +39,8 @@ walczy przeciwko całemu mrowiu coraz trudniejszych małych bestii.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
+%patch2 -p1
 
 %build
 %{__aclocal}

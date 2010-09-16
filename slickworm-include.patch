@@ -1,0 +1,10 @@
+--- slickworm-0.4.1/src/error.cpp~	2004-09-05 21:44:40.000000000 +0200
++++ slickworm-0.4.1/src/error.cpp	2010-09-16 15:01:07.000000000 +0200
+@@ -33,6 +33,7 @@
+ 
+ #include "error.h"
+ #include <iostream>
++#include "stdlib.h"
+ 
+ void Error(std::string error_message)
+ {
